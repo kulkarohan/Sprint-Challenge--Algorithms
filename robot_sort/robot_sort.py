@@ -96,8 +96,10 @@ class SortingRobot:
         """
         Sort the robot's list.
         """
-        # Fill this out
-        pass
+        return self.can_move_left()
+
+
+
 
 
 if __name__ == "__main__":
@@ -108,5 +110,7 @@ if __name__ == "__main__":
 
     robot = SortingRobot(l)
 
-    robot.sort()
-    print(robot._list)
+    print(robot.sort())
+
+    #robot.sort()
+    #print(robot._list)
